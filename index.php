@@ -6,4 +6,5 @@ $twig = new \Twig\Environment($loader, [
     'cache' => false,
 ]);
 
-echo $twig->render('index.html.twig');
+// echo $twig->render('base.html.twig');
+echo $twig->render('chat/index.html.twig');
