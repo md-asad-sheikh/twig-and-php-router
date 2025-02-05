@@ -1,0 +1,18 @@
+{
+    "name": "asad-sheikh/twig-and-php-router",
+    "autoload": {
+        "psr-4": {
+            "AsadSheikh\\TwigAndPhpRouter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "md-asad-sheikh",
+            "email": "mdasad.sheikh.diu@gmail.com"
+        }
+    ],
+    "require": {
+        "pecee/simple-router": "^5.4",
+        "twig/twig": "^3.0"
+    }
+}
