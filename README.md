@@ -1,0 +1,8 @@
+- [Getting started](#getting-started)
+	- [Notes](#notes-1)
+	- [Requirements](#requirements)
+	- [Features](#features)
+	- [Installation](#installation)
+		- [Setting up Apache](#setting-up-apache)
+		- [Setting up Nginx](#setting-up-nginx)
+		- [Setting up IIS](#setting-up-iis)
