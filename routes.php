@@ -1,4 +1,4 @@
 <?php
-SimpleRouter::get('/test', function () {
-    return 'Hello world';
-});
+// SimpleRouter::get('/test', function () {
+//     return 'Hello world';
+// });

@@ -10,17 +10,15 @@ $twig = new \Twig\Environment($loader, [
     'cache' => false,
 ]);
 
-
-
-/**
- * The default namespace for route-callbacks, so we don't have to specify it each time.
- * Can be overwritten by using the namespace config option on your routes.
- */
-
 SimpleRouter::setDefaultNamespace('\Demo\Controllers');
 
 // Start the routing
 SimpleRouter::start();
 
 // echo $twig->render('base.html.twig');
-echo $twig->render('chat/index.html.twig');
+// echo $twig->render('chat/index.html.twig');
+
+
+SimpleRouter::get('/test', function() {
+    return 'Hello world';
+});
